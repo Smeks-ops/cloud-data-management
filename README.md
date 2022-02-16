@@ -3,7 +3,7 @@
 
 1. Clone this repository with this command
 ```bash
-# git clone https://github.com/Okprime/spoke-assessment.git
+# git clone https://github.com/Smeks-ops/risevest-assessment
 ```
 
 ## Installing Without Docker
