@@ -1,4 +1,9 @@
 # Rise-vest-assessment Server
+
+[![Run in Postman](https://run.pstmn.io/button.svg)](https://app.getpostman.com/run-collection/16662064-dc5ccb7b-6c79-4b95-805c-003731c2d8af?action=collection%2Ffork&collection-url=entityId%3D16662064-dc5ccb7b-6c79-4b95-805c-003731c2d8af%26entityType%3Dcollection%26workspaceId%3D70bd2b92-da20-44a4-be3c-5918db452545)
+
+## Run in SwaggerUI
+# https://risevest-cloud-api.herokuapp.com/api/v1/docs/#/
 ## Getting the App Locally
 
 1. Clone this repository with this command
