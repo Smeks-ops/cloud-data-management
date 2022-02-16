@@ -13,7 +13,7 @@ export class UsersService {
     private jwtService: JwtService,
   ) {}
 
-  async createAdminUser(createUserDto: CreateUserDto) {
+  async createAdmin(createUserDto: CreateUserDto) {
     // check if the email already exists
     const isExist = await this.findByEmail(createUserDto.email);
     if (isExist) throw new BadRequestException('Email already exists');
@@ -37,6 +37,7 @@ export class UsersService {
       access_token: this.jwtService.sign(payload),
     };
   }
+
   async createUser(createUserDto: CreateUserDto) {
     // check if the email already exists
     const isExist = await this.findByEmail(createUserDto.email);

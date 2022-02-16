@@ -9,11 +9,11 @@ export class UsersController {
   constructor(private readonly usersService: UsersService) {}
 
   @ApiOkResponse({
-    description: 'Create a user and returns a token',
+    description: 'Create an admin and returns a token',
   })
   @Post('admin')
-  createAdminUser(@Body() createUserDto: CreateUserDto) {
-    return this.usersService.createAdminUser(createUserDto);
+  createAdmin(@Body() createUserDto: CreateUserDto) {
+    return this.usersService.createAdmin(createUserDto);
   }
 
   @ApiOkResponse({

@@ -19,8 +19,8 @@ import {
   ApiTags,
 } from '@nestjs/swagger';
 import { plainToClass } from 'class-transformer';
-import { AuthUser } from 'src/auth/auth.decorator';
-import { JwtAuthGuard } from 'src/auth/guard/jwt-auth.guard';
+import { AuthUser } from '../auth/auth.decorator';
+import { JwtAuthGuard } from '../auth/guard/jwt-auth.guard';
 import { GetUploadedFilesQuery } from './dto/get-uploaded-files-query.dto';
 import { UploadedFilesDto } from './dto/uploaded-files.dto';
 import { ImageUploadService } from './file-upload.service';

@@ -10,7 +10,6 @@ export class AuthController {
 
   @ApiOkResponse({
     description: 'Allow a user to login and returns a token',
-    // type: Token,
   })
   @Post('login')
   async login(@Body() authLoginDto: AuthLoginDto) {

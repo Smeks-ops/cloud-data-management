@@ -10,7 +10,7 @@ import {
 } from 'typeorm';
 import * as bcrypt from 'bcryptjs';
 import { Exclude } from 'class-transformer';
-import { FileUpload } from 'src/file-upload/entities/file-upload.entity';
+import { FileUpload } from '../../file-upload/entities/file-upload.entity';
 
 @Entity()
 export class User extends BaseEntity {
