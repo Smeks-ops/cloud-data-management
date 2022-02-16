@@ -81,10 +81,10 @@ export class ImageUploadService {
   }
 
   async markFileAsUnsafe(fileId: string, userId: string) {
-    // get user info to detemine the role
+    // get user info to determine the role
     const user = await this.usersService.findById(userId);
     if (user.userRole === 'user') {
-      throw new BadRequestException('Sorry, you cannot perfom this action');
+      throw new BadRequestException('Sorry, you cannot perform this action');
     }
     const isUnsafe = true;
     const isDeleted = true;

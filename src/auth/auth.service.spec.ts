@@ -62,8 +62,6 @@ describe('AuthService', () => {
         userRole: 'admin',
         password:
           '$2a$08$D0UoLEKFsKTBTb6FfEVy3OON3aGAYx0nttubrs97NnB744K9kAt3m',
-        // createdAt: 2022-02-16T10:40:38.688Z,
-        // updatedAt: 2022-02-16T10:40:38.688Z
       } as any;
 
       jest.spyOn(service, 'validateUser').mockImplementation(async () => user);

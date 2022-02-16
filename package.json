@@ -1,8 +1,8 @@
 {
   "name": "risvest-assessment",
   "version": "0.0.1",
-  "description": "",
-  "author": "",
+  "description": "an API that serves as an cloud backup system",
+  "author": "Osemeke Echenim",
   "private": true,
   "license": "UNLICENSED",
   "scripts": {
